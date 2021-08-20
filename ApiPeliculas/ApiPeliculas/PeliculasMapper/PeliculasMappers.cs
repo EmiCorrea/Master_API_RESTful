@@ -4,9 +4,9 @@ using AutoMapper;
 
 namespace ApiPeliculas.PeliculasMapper
 {
-    public class PeliculasMapper : Profile
+    public class PeliculasMappers : Profile
     {
-        public PeliculasMapper()
+        public PeliculasMappers()
         {
             CreateMap<Categoria, CategoriaDTO>().ReverseMap();
         }
