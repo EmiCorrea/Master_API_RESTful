@@ -10,8 +10,8 @@ namespace ApiPeliculas.Repository.IRepository
         bool ExisteCategoria(string nombreCategoria);
         bool ExisteCategoria(int idCategoria);
         bool CrearCategoria(Categoria nuevaCategoria);
-        bool ActualizarCategoria(Categoria nuevaCategoria);
-        bool BorrarCategoria(Categoria nuevaCategoria);
+        bool ActualizarCategoria(Categoria categoria);
+        bool BorrarCategoria(Categoria categoria);
         bool Guardar();
 
     }
